@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Set karakter encoding ke UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Pastikan halaman responsif pada perangkat mobile -->
+  <title>Ashar Syamsuddin</title> <!-- Judul halaman yang akan tampil di tab browser -->
+  
+  <!-- Link ke stylesheet Bootstrap untuk styling dasar -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Link ke Font Awesome untuk ikon sosial media -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <style>
+    /* Gaya umum untuk body halaman */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9; /* Warna latar belakang halaman */
+      color: #333; /* Warna teks */
+      margin-top: 60px; /* Jarak dari bagian atas */
+    }
+    
+    /* Gaya untuk bagian profil */
+    .profile-section {
+      text-align: center; /* Tengah-kan teks di dalam bagian ini */
+      background-color: #ffffff; /* Warna latar belakang bagian profil */
+      padding: 40px; /* Padding di sekitar konten */
+      border-radius: 8px; /* Sudut melengkung pada kotak */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+      margin-bottom: 40px; /* Jarak di bawah bagian profil */
+    }
+    
+    /* Gaya untuk gambar profil */
+    .profile-picture {
+      width: 180px; /* Lebar gambar */
+      height: 180px; /* Tinggi gambar */
+      object-fit: cover; /* Mengatur gambar untuk menutupi area tanpa distorsi */
+      border-radius: 50%; /* Bentuk bulat untuk gambar */
+      border: 4px solid #007bff; /* Border warna biru pada gambar */
+      margin-bottom: 20px; /* Jarak di bawah gambar */
+    }
+    
+    /* Gaya untuk daftar tautan sosial media */
+    .social-links {
+      display: flex; /* Gunakan flexbox untuk tata letak */
+      flex-wrap: wrap; /* Bungkus elemen jika tidak muat di satu baris */
+      justify-content: center; /* Tengah-kan elemen dalam baris */
+      gap: 20px; /* Jarak antar elemen */
+      margin-top: 30px; /* Jarak di atas daftar tautan sosial */
+    }
+    
+    /* Gaya untuk setiap kartu sosial media */
+    .social-card {
+      background-color: white; /* Warna latar belakang kartu */
+      border-radius: 10px; /* Sudut melengkung pada kartu */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+      padding: 20px; /* Padding di dalam kartu */
+      width: 120px; /* Lebar kartu */
+      text-align: center; /* Tengah-kan teks di dalam kartu */
+      transition: transform 0.3s, box-shadow 0.3s; /* Transisi efek saat hover */
+    }
+    
+    /* Efek saat hover pada kartu sosial media */
+    .social-card:hover {
+      transform: translateY(-10px); /* Geser kartu ke atas saat hover */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan lebih dalam */
+    }
+    
+    /* Gaya untuk ikon dalam daftar sosial media */
+    .social-links i {
+      font-size: 40px; /* Ukuran ikon */
+      color: #007bff; /* Warna ikon */
+      margin-bottom: 10px; /* Jarak di bawah ikon */
+    }
+    
+    /* Gaya untuk tautan dalam daftar sosial media */
+    .social-links a {
+      text-decoration: none; /* Hilangkan garis bawah pada tautan */
+      color: #333; /* Warna teks tautan */
+      font-weight: bold; /* Berat font bold */
+      font-size: 14px; /* Ukuran font */
+      transition: color 0.3s; /* Transisi warna saat hover */
+    }
+    
+    /* Efek saat hover pada tautan sosial media */
+    .social-links a:hover {
+      color: #007bff; /* Warna teks saat hover */
+    }
+    
+    /* Gaya untuk container utama */
+    .container {
+      max-width: 960px; /* Lebar maksimum container */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bagian Profil -->
+  <div class="container">
+    <div class="profile-section">
+      <!-- Gambar Profil -->
+      <img src="syam.jpg" alt="Profile Picture" class="profile-picture mb-3">
+      <h1>Ashar Syamsuddin</h1>
+      <p>Web Programer Profesional</p>
+      <!-- Tautan Sosial Media -->
+      <div class="social-links">
+        <!-- Kartu GitHub -->
+        <div class="social-card">
+          <a href="https://github.com/Syamsuddin-ashar" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+            <p>GitHub</p>
+          </a>
+        </div>
+        <!-- Kartu LinkedIn -->
+        <div class="social-card">
+          <a href="https://www.linkedin.com/in/syamsuddin-ashar-491940329/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+            <p>LinkedIn</p>
+          </a>
+        </div>
+        <!-- Kartu Facebook -->
+        <!-- Kartu Instagram -->
+        <!-- Kartu Website -->
+        <!-- Kartu Ko-fi -->
+        <div class="social-card">
+          <a href="https://ko-fi.com/ashar_syamsuddin" target="_blank" aria-label="Ko-fi">
+            <i class="fas fa-coffee"></i>
+            <p>Ko-fi</p>
+          </a>
+        </div>
+        <!-- Kartu Buy Me a Coffee -->
+        <!-- Kartu Gumroad -->
+        <div class="social-card">
+          <a href="https://app.gumroad.com/dashboard" target="_blank" aria-label="Gumroad">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Gumroad</p>
+          </a>
+        </div>
+        <!-- Kartu Creative Market -->
+        <!-- Kartu ThemeForest -->
+        <!-- Kartu Medium -->
+        <div class="social-card">
+          <a href="https://medium.com/@syamsuddinashar349" target="_blank" aria-label="Medium">
+            <i class="fab fa-medium"></i>
+            <p>Medium</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Skrip untuk Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- Skrip untuk Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
